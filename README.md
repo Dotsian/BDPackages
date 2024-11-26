@@ -22,13 +22,14 @@ else:
 
 ### Loading Packages
 
-Packages will not be loaded upon starting your bot. This is due to how Ballsdex packages are loaded. To solve this, open up the `bot.py` file in `ballsdex/core` and search for a line that starts with `PACKAGES`. At the end of the line, add a comma and quotation marks before the square bracket. 
+Packages will not be loaded upon starting your bot. This is due to how Ballsdex packages are loaded. To solve this, open up the `bot.py` file in `ballsdex/core` and search for a line that starts with `PACKAGES`. At the end of the line, add a comma and quotation marks before the square bracket.
 
 Add the package name inside the quotation marks, like this `, "battle"`. The line should look similar to this: `PACKAGES = ["battle", "merge", "boss"]`
 
 ## Packages
 
 ### [Battle - xen64](https://github.com/XEN486/BallsDex-Fork)
+
 The battle package adds battle commands to your Ballsdex bot. The battle system follows a similar approach to the standard Ballsdex battle system. It has seven commands, each with its unique functionality.
 
 ### [Boss - moofficial](https://github.com/MoOfficial0000/BossPackageBD)
