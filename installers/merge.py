@@ -40,11 +40,10 @@ async def install_package(path, link, files):
 
 
 await install_package( # type: ignore
-    "battle",
-    "https://api.github.com/repos/XEN486/BallsDex-Fork/contents/ballsdex/packages/battle",
+    "merge",
+    "https://api.github.com/repos/XEN486/BallsDex-Fork/contents/ballsdex/packages/merge",
     [
         "__init__.py",
         "cog.py",
-        "xe_battle_lib.py",
     ]
 )
