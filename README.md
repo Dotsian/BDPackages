@@ -39,7 +39,4 @@ This package requires a special called `Boss` for the rewards system.
 
 ### [Merge - xen64](https://github.com/XEN486/BallsDex-Fork)
 
-The merge package adds commands that allow you to merge countryballs together. Merging a countryball will merge its statistics and card art, splitting the card art in half. However, it will only generate a card image, similar to how the `/balls info` command functions.
-
-
-After opening the file, search for the code that starts with `PACKAGES = `. At the end of the line, add a comma and quotation marks before the square bracket. Add the package name inside of the quotation marks, like this `, "battle"`. The line should look similar to this: `PACKAGES = ["battle", "merge", "boss"]`
+The merge package adds commands that allow you to merge countryballs. Merging a countryball will merge its statistics and card art, splitting the card art in half. However, it will only generate a card image, similar to how the `/balls info` command functions.
