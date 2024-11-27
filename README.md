@@ -4,7 +4,7 @@ Welcome to the official repository that stores all custom package installers.
 
 ## Installing Packages
 
-Using eval commands, run the following code below, replacing `ADD YOUR PACKAGE HERE` with the package you want to install in lowercase, excluding everything after the dash.
+Using eval commands, run the following code below, replacing `ADD YOUR PACKAGE HERE` with the package you want to install in lowercase, excluding everything after the dash. Make sure the code is wrapped in a code block.
 
 ```py
 # Add the package you want to install inside of the empty quotes.
@@ -17,7 +17,7 @@ r = requests.get(f"https://api.github.com/repos/Dotsian/BDPackages/contents/inst
 if r.status_code == requests.codes.ok:
   await ctx.invoke(bot.get_command("eval"), body=base64.b64decode(r.json()["content"]).decode("UTF-8"))
 else:
-  await ctx.send(f"Failed to fetch package.\n`ERROR CODE: {r.status_code}`")
+  await ctx.send(f"Failed to fetch package.\nERROR CODE: {r.status_code}")
 ```
 
 ### Loading Packages
